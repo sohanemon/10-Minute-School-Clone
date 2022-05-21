@@ -1,7 +1,6 @@
 import content from '../lib/db/section/db'
 import Link from 'next/link'
 const Sections = () => {
-  console.log(content)
   const Card = ({ icon, text }) => {
     return (
       <Link href="path">
@@ -18,7 +17,7 @@ const Sections = () => {
   }
   return (
     <>
-      <div className="mt-24 text-center font-semibold">
+      <div className="mt-10 text-center font-semibold">
         <p className="text-1xl">None can teach you...</p>
         <p className="text-2xl">Unless you teach yourself</p>
       </div>

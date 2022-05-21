@@ -7,3 +7,8 @@
     @apply drop-shadow-lg;
   }
 }
+@layer components {
+  .heading {
+    @apply text-center text-2xl font-semibold drop-shadow-xl;
+  }
+}

@@ -1,7 +1,5 @@
 import content from '../lib/db/categories/db'
-import Link from 'next/link'
 const Categories = () => {
-  console.log(content)
   const Card = ({ icon, text }) => {
     return (
       <div className="grid grid-rows-3 place-items-center p-4">
