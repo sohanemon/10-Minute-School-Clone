@@ -51,12 +51,12 @@ const Reviews = () => {
 const Card = ({ review, name, occupation, image }) => {
   return (
     <div
-      className="mx-auto  h-full w-11/12 bg-gradient-to-bl from-pink-200 to-yellow-200"
+      className="mx-auto h-full  w-11/12 scale-90 bg-gradient-to-bl from-pink-200 to-yellow-200"
       style={{
         borderRadius: '67% 33% 73% 27% / 49% 26% 74% 51%  ',
       }}
     >
-      <div className="relative m-16 flex flex-col rounded-2xl bg-white shadow-2xl">
+      <div className="relative m-16 flex scale-110 flex-col rounded-2xl border-r-8 border-t-8 border-r-yellow-100 border-t-pink-100 border-opacity-80 bg-white shadow-2xl">
         <div className="flex justify-between px-6 pb-6 pt-10">
           <Image
             className=" basis-1/4 rounded-full"

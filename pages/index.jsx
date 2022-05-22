@@ -8,7 +8,9 @@ import JobSpecial from '../components/job-special'
 import Reviews from '../components/reviews'
 import Carousel2 from '../components/skill-dev/carousel'
 import TextSwiper from '../components/skill-dev/text-swiper'
+import Achievement from '../components/achievement'
 import Header from '../components/header'
+import DownloadSection from '../components/download-section'
 const Home = () => {
   return (
     <>
@@ -29,6 +31,8 @@ const Home = () => {
           <Carousel2 />
         </div>
         <Reviews />
+        <Achievement />
+        <DownloadSection />
       </div>
     </>
   )

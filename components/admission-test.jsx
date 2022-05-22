@@ -1,11 +1,10 @@
 import content from '../lib/db/admission-test'
 import Image from 'next/image'
 import { BsFillPeopleFill } from 'react-icons/bs'
-console.log(content)
+
 const AdmissionTest = () => {
   return (
     <>
-      {' '}
       <div>
         <p className="heading -translate-y-16">Road to ur Dream University</p>
       </div>

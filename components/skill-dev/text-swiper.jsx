@@ -22,7 +22,7 @@ const TextSwiper = () => {
         modules={[Autoplay]}
       >
         {otherSkills.map((e) => (
-          <SwiperSlide className="m-2 mx-10 max-w-max rounded-full p-1 px-6 font-semibold text-gray-800 ring-2 ring-gray-400  drop-shadow-lg hover:ring-green-700 focus:ring-green-700">
+          <SwiperSlide className="m-2 mx-10 max-w-max rounded-full p-1 px-6 font-semibold text-gray-800 ring-2 ring-gray-400  drop-shadow-lg hover:text-green-900 hover:ring-green-700">
             <Link href="">
               <a>{e}</a>
             </Link>
