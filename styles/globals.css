@@ -8,6 +8,9 @@
   }
 }
 @layer components {
+  .btn-em {
+    @apply relative left-1/2 mb-10  -translate-x-1/2 rounded-lg bg-green-700 px-5  py-2 font-semibold text-green-200 duration-500 hover:scale-105 hover:bg-green-200  hover:text-green-700;
+  }
   .heading {
     @apply text-center text-2xl font-semibold drop-shadow-xl;
   }
