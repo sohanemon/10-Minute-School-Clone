@@ -64,7 +64,7 @@ export const Carousel1 = ({ content }) => {
 const Card = ({ image, title }) => {
   return (
     <>
-      <div className="z-20 mt-10  shadow-xl transition-all duration-700 hover:-translate-y-10">
+      <div className="z-20 mt-10 h-52  overflow-hidden rounded-xl shadow-xl transition-all duration-700 hover:-translate-y-10">
         <Image
           src={image}
           alt={title}
@@ -72,7 +72,7 @@ const Card = ({ image, title }) => {
           height={1000}
           width={1800}
         />
-        <div className="flex  flex-col items-center  rounded-bl-xl rounded-br-xl bg-white">
+        <div className="flex  flex-col items-center   bg-white">
           <p className="  p-2 font-semibold">{title}</p>
           <button className="bg-green-50 pb-1 text-green-800">More</button>
         </div>

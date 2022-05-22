@@ -8,6 +8,7 @@ import JobSpecial from '../components/job-special'
 import Reviews from '../components/reviews'
 import Carousel2 from '../components/skill-dev/carousel'
 import TextSwiper from '../components/skill-dev/text-swiper'
+import Header from '../components/header'
 const Home = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
+        <Header />
         <Carousel />
         <Sections />
         <Categories />

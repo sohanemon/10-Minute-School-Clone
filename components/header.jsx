@@ -66,7 +66,11 @@ const Header = () => {
             onClick={(e) => handleBurger(e)}
           />
         </li>
-        <li className="mobileView__li ">Home</li>
+        <li className="mobileView__li ">
+          <h1 className="w-min bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-xl  text-transparent">
+            Second School
+          </h1>
+        </li>
         <li className="mobileView__li">
           <CgProfile />
         </li>
